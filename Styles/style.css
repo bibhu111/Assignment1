@@ -60,25 +60,125 @@ body {
   flex-direction: column;
   gap: 32px;
 }
-.banner-content h1{
+
+.banner-content h1 {
   width: 998px;
   font-size: 48px;
-font-weight: 800;
-text-align: center;
+  font-weight: 800;
+  text-align: center;
 }
-.banner-content p{
+
+.banner-content p {
   font-size: 16px;
   text-align: center;
   margin-left: 100px;
   margin-right: 100px;
 }
-.banner-content button{
+
+.banner-content button {
   border-radius: 8px;
-background: rgb(13, 19, 33);
-width: 230px;
-height: 65px;
-font-size: 20px;
-font-weight: 500;
-color: aliceblue;
-gap: 10;
+  background: rgb(13, 19, 33);
+  width: 230px;
+  height: 65px;
+  font-size: 20px;
+  font-weight: 500;
+  color: aliceblue;
+  gap: 10;
+}
+
+/* reason-styles */
+.reason {
+  width: 1140px;
+  height: 1393px;
+  background-color: rgba(13, 19, 33, 0.02);
+  padding: 80px 97px 80px 97px;
+  margin: 74px auto;
+}
+
+.container {
+  width: 946px;
+  height: 1233px;
+  /* background-color: brown; */
+}
+
+.reason-content {
+  width: 852px;
+  height: 113px;
+  /* background-color: aquamarine; */
+  margin: 0 auto;
+  margin-bottom: 48px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.reason-content p {
+  font-size: 16px;
+  margin-top: 24px;
+  color: rgb(13, 19, 33);
+  font-weight: 400;
+}
+
+.reason-box {
+  width: 946px;
+  height: 336px;
+  background-color: #fff;
+  margin-bottom: 32px;
+  padding: 48px;
+}
+
+.reason-sub-box {
+  width: 850px;
+  height: 240px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.reason-content2 {
+  width: 477px;
+  height: 219px;
+  /* background-color: brown; */
+}
+
+.reason-content2 h3,
+p {
+  margin-bottom: 32px;
+}
+
+.reason-content2 button {
+  width: 171px;
+  height: 47px;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+}
+/* inspiration styles */
+.inspiration{
+  height: 614px;
+  width: 1140px;
+  /* background-color: brown; */
+  margin: 90px auto;
+}
+.inspiration-content{
+  height: 113px;
+  width: 852px;
+  /* background-color: black; */
+  margin: 0 auto;
+}
+.inspiration-content h1{
+  font-size: 32px;
+font-weight: 800;
+text-align: center;
+}
+.inspiration-content p{
+  font-size: 16px;
+font-weight: 400;
+margin-top: 24px;
+color: rgb(13, 19, 33);
+}
+.inspiration-vdo{
+  height: 550px;
+  width: 100%;
+  /* background-color: black; */
+  padding: 32px;
 }
