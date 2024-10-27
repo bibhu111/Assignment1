@@ -402,3 +402,17 @@ button {
   display: flex;
   justify-content: space-around;
 }
+/* footer style */
+.foot{
+  width: 100%;
+  height: 100px;
+  padding: 32px 370px 32px 370px;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: brown; */
+}
+.icons img{
+  width: 37.01px;
+height: 36px;
+  gap: 24;
+}
