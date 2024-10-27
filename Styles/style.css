@@ -193,7 +193,7 @@ p {
   width: 1140px;
   height: 1437px;
   /* background-color: brown; */
-  margin: 151px auto;
+  margin: 0 auto;
 }
 
 .current-content {
@@ -221,21 +221,27 @@ p {
   gap: 24px;
 }
 
-.current-target1,.current-target2,.current-target3{
+.current-target1,
+.current-target2,
+.current-target3 {
   width: 364px;
   height: 299px;
   /* background-color: black; */
   padding: 40px;
 }
-.current-target1{
+
+.current-target1 {
   background-color: rgb(255, 246, 244);
 }
-.current-target2{
+
+.current-target2 {
   background-color: rgb(242, 246, 254);
 }
-.current-target3{
+
+.current-target3 {
   background-color: rgb(255, 253, 242);
 }
+
 .current-target h2,
 p,
 button {
@@ -253,13 +259,15 @@ button {
   font-weight: 400;
   color: rgb(13, 19, 33);
 }
-.current-target a{
+
+.current-target a {
   font-size: 16px;
-font-weight: 700;
-text-decoration-line: underline;
-color: rgb(13, 19, 33);
+  font-weight: 700;
+  text-decoration-line: underline;
+  color: rgb(13, 19, 33);
 }
-.next-target-content{
+
+.next-target-content {
   height: 113px;
   width: 946px;
   /* background-color: black; */
@@ -267,54 +275,130 @@ color: rgb(13, 19, 33);
   text-align: center;
   margin-bottom: 48px;
 }
-.next-target-content h1{
+
+.next-target-content h1 {
   font-size: 32px;
-font-weight: 800;
-margin-bottom: 24px;
+  font-weight: 800;
+  margin-bottom: 24px;
 }
+
 .next-target-content p {
   font-size: 16px;
   font-weight: 400;
   color: rgb(13, 19, 33);
 }
 
-.next-target{
+.next-target {
   width: 1140px;
   height: 219px;
   padding: 40px;
   /* background-color: blanchedalmond; */
   margin-bottom: 24px;
-   display: flex;
-   border: 1px solid rgba(13, 19, 33, 0.15);
-border-radius: 16px;
-background: rgb(255, 255, 255);
+  display: flex;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
 }
-.next-target-img img{
+
+.next-target-img img {
   /* background-color: white; */
   margin-top: 27.3px;
 }
-.next-target-cnt{
+
+.next-target-cnt {
   width: 941.22px;
-height: 139px;
-/* background-color: brown; */
-align-items: center;
-margin-left: 24px;
+  height: 139px;
+  /* background-color: brown; */
+  align-items: center;
+  margin-left: 24px;
 }
-.next-target-cnt h1{
+
+.next-target-cnt h1 {
   font-size: 24px;
-font-weight: 800;
-margin-bottom: 8px;
+  font-weight: 800;
+  margin-bottom: 8px;
 }
-.next-target-cnt p{
+
+.next-target-cnt p {
   font-size: 16px;
-font-weight: 400;
-color: rgb(13, 19, 33);
-line-height: 26px;
+  font-weight: 400;
+  color: rgb(13, 19, 33);
+  line-height: 26px;
 }
-.next-target-cnt a{
+
+.next-target-cnt a {
   font-size: 16px;
-font-weight: 700;
-line-height: 19px;
-text-decoration-line: underline;
-color: rgb(13, 19, 33);
+  font-weight: 700;
+  line-height: 19px;
+  text-decoration-line: underline;
+  color: rgb(13, 19, 33);
+}
+
+/* support styles */
+.support {
+  height: 313px;
+  width: 1140px;
+  /* background-color: burlywood; */
+  margin: 0 auto;
+  background-image: url(../assets/handshake.jpg);
+  padding: 64px 48px;
+  margin-bottom: 80px;
+  background-size: 1140px 313px;
+  background-position: center;
+  border-radius: 16px;
+  background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), url(Email);
+  opacity: 0.4 black;
+  /* background-repeat: no-repeat; */
+  text-align: center;
+  color: #fff;
+}
+
+.suport h3 {
+  width: 292px;
+  height: 36px;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  margin-bottom: 16px;
+}
+
+.support p {
+  width: 606px;
+  height: 52px;
+  opacity: 0.7;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: rgb(255, 255, 255);
+  margin-top: 16px;
+  margin-left: 219px;
+}
+
+.support textarea {
+  width: 548px;
+  height: 57px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  padding: 19px 20px 19px 20px;
+}
+
+.support input[type="submit"] {
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  width: 120px;
+  height: 57px;
+  padding: 17px 20px 17px 20px;
+  margin-bottom: 60px;
+  margin-left: -350px;
+  border: none;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 23px;
+}
+
+.last {
+  display: flex;
+  justify-content: space-around;
 }
